@@ -1,0 +1,24 @@
+{
+    "name": "energibangsa/cepet",
+    "description": "CRUD Generator Energi Bangsa",
+    "authors": [
+        {
+            "name": "dimasarz",
+            "email": "dimasahmadrizal@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "energibangsa\\cepet\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "energibangsa\\cepet\\CepetServiceProvider"
+            ]
+        }
+    }
+}
